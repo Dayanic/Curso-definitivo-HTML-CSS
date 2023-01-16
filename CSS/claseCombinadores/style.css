@@ -1,0 +1,19 @@
+/*Esto permite asignar estilo a los hermanos que estén cerca de un h2 (Adjacent Siblings)*/
+/* h2 + p {
+    color: red;
+} */
+
+/*Permite dar estilo a hermanos generales (General Sibling)*/
+/* h2 ~ p {
+    color:red
+} */
+
+/*Permite dar estilo a un Hijo directo de la etiqueta padre (etiqueta padre DIV y etiqueta hijo P)*/
+/* div > p {
+    color: red;
+} */
+
+/*Permite dar estilo a sus etiquetas Descendiente (esto permite asignar estilo a todas las etiquetas p hijos dentro de un div)*/
+div p {
+    color: red;
+}
